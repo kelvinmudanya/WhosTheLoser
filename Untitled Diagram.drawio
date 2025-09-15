@@ -1,9 +1,153 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="Page-1" id="e84IXmbCW3EEJnQuK0i4">
-    <mxGraphModel>
+    <mxGraphModel dx="880" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CvPw_bmcQmQj5Vh5PbjV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-1" value="Blood Requested at ward" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CvPw_bmcQmQj5Vh5PbjV-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CvPw_bmcQmQj5Vh5PbjV-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-6" value="Check local storage for the blood" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="170" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-8" value="If unavailable" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-10" value="If available" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CvPw_bmcQmQj5Vh5PbjV-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-11" value="Send requisition to DamuKe" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CvPw_bmcQmQj5Vh5PbjV-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-12" value="Collect blood from storage for cross match" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CvPw_bmcQmQj5Vh5PbjV-14" target="CvPw_bmcQmQj5Vh5PbjV-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-14" value="Process the request at the Blood bank" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CvPw_bmcQmQj5Vh5PbjV-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-16" value="Dispatch the blood to lab for crossmatch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CvPw_bmcQmQj5Vh5PbjV-20" target="CvPw_bmcQmQj5Vh5PbjV-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-20" value="Initiate cross match for patient, and take sample" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="110" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-22" value="This is just like in afyaKe, actors are doctor who withdraws sample, then the sample are taken to lab, awaiting cross match" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="115" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CvPw_bmcQmQj5Vh5PbjV-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CvPw_bmcQmQj5Vh5PbjV-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="524" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-24" value="Perform crossmatch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-28" value="If feasible" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="590" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-29" value="If unfeasible" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="540" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CvPw_bmcQmQj5Vh5PbjV-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-30" value="Dispatched to ward" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CvPw_bmcQmQj5Vh5PbjV-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-32" value="Perform transfusion against the patient after confirming the donation number" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CvPw_bmcQmQj5Vh5PbjV-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CvPw_bmcQmQj5Vh5PbjV-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-35" value="Observation and recording" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="800" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-37" value="On reaction" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="840" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CvPw_bmcQmQj5Vh5PbjV-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-38" value="Blood sent back to lab for QA and further testing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-40" value="No reaction" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="890" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-41" value="End transfusion and record" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CvPw_bmcQmQj5Vh5PbjV-43" value="Request may be made again" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
